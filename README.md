@@ -6,6 +6,7 @@ Homebrew tap for [AX (Agent Xpansion)](https://getax.wenneker.io).
 
 ```bash
 brew tap GaryWenneker/tap
+brew trust GaryWenneker/tap   # required on Homebrew 7+
 brew install ax
 ```
 
@@ -18,7 +19,7 @@ brew uninstall ax
 
 Uninstall removes only the Homebrew-managed binary. Project data under `<project>/.ax/` and user data under `~/.ax/` are preserved.
 
-Homebrew-managed installs refuse `ax upgrade` — use `brew upgrade ax` instead.
+Homebrew-managed installs refuse `ax upgrade` once the installed binary includes that guard — use `brew upgrade ax` instead.
 
 ## Formula source
 
