@@ -1,12 +1,10 @@
 # typed: false
 # frozen_string_literal: true
 
-# Formula template for GaryWenneker/homebrew-tap.
-# Placeholders are stamped by scripts/homebrew_tap_prepare.py from release SHA256SUMS.
+# Stamped into GaryWenneker/homebrew-tap by scripts/homebrew_tap_prepare.py.
 class Ax < Formula
   desc "Agent Xpansion — local-first code intelligence for AI agents"
   homepage "https://getax.wenneker.io"
-  version "8.4.3"
   license "MIT"
 
   on_macos do
